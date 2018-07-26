@@ -30,20 +30,20 @@
     <RelativeLayout
         android:layout_width="350dp"
         android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="56dp"
-        android:alpha="0.3"
-        android:background="#fff">
+
+        >
+
 
         <Button
             android:id="@+id/Login"
-            android:layout_width="wrap_content"
+            android:layout_width="163dp"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="Login"
-            android:textColor="#000"
-            android:typeface="monospace" />
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="LOGIN" />
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -71,7 +71,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:alpha="0.4"
         android:text="Registration" />
 
 </RelativeLayout>
